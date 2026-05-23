@@ -2,6 +2,7 @@
 
 def palindrome(s: str):
     copy = "".join(s.split()).lower()
+    new_string = s[::-1]
     new_string = "".join(s.split()).lower()
     # print(new_string)
     return new_string==copy
